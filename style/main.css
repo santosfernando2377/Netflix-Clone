@@ -13,9 +13,8 @@
 
 body {
     background-color: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
-    color: #fff;
-    
+    font-family: 'Arial', Times, serif;
+    color: #fff;   
 }
 
 header .logo {
@@ -23,7 +22,7 @@ header .logo {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     text-transform: uppercase;
-    margin-left: 5px;
+    margin: 5px;
 }
 
 header nav a {
@@ -97,4 +96,14 @@ header .container {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
+}
+
+.carrosel-filmes-descricao {
+    margin: 10px;
+    font-family: 'Arial', sans-serif, serif;
+    font-size: 18px;
 }
